@@ -1,0 +1,13 @@
+name: moneydrop
+main: Aleondev\Main
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: Aleondev
+description: "ein moneydrop plugin"
+
+commands:
+  moneydrop:
+    description: §4Mache Ein MoneyDrop §aby Aleondev
+    usage: "/moneydrop <Betrag>"
+    permission: moneydrop.command
