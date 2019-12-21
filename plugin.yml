@@ -7,7 +7,7 @@ author: Aleondev
 description: "Moneydrop By Aleondev"
 
 commands:
-  payall:
+  moneydrop:
     description: §4MoneyDrop
     usage: "/moneydrop <Betrag>"
     permission: moneydrop.command
