@@ -21,6 +21,7 @@ class Main extends PluginBase{
 				foreach ($this->getServer()->getOnlinePlayers() as $player) {
 					$this->getServer()->getPluginManager()->getPlugin("EconomyAPI")->addMoney($player, $zahl);
 					$player->sendMessage("§4Du hast §e" .$zahl. "$ §4erhalten durch einen Moneydrop");
+					break;
 				}
 				return true;
 			default:
