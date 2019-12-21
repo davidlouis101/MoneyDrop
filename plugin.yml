@@ -1,0 +1,13 @@
+name: payall
+main: Aleondev\Main
+version: 1.0.0
+api: 3.0.0
+load: POSTWORLD
+author: Aleondev
+description: "Ein /payall pl für Drama"
+
+commands:
+  payall:
+    description: §e[GG]§4Payall
+    usage: "/payall <Betrag>"
+    permission: payall.command
