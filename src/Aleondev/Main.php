@@ -21,15 +21,5 @@ class Main extends PluginBase{
 				foreach ($this->getServer()->getOnlinePlayers() as $player) {
 					$this->getServer()->getPluginManager()->getPlugin("EconomyAPI")->addMoney($player, $zahl);
 					$player->sendMessage("§4Du hast §e" .$zahl. "$ §4erhalten durch einen Moneydrop");
-					break;
+					default;
 				}
-				return true;
-			default:
-				return false;
-		} 
-		}
-	public function onDisable() : void{
-		$this->getLogger()->info("Deaktiviert");
-	}
-    }
-}
