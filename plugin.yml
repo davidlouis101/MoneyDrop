@@ -1,13 +1,13 @@
-name: payall
+name: MoneyDrop
 main: Aleondev\Main
 version: 1.0.0
-api: 3.0.0
+api: [3.0.0,4.0.0]
 load: POSTWORLD
 author: Aleondev
-description: "Ein /payall pl für Drama"
+description: "Moneydrop By Aleondev"
 
 commands:
   payall:
-    description: §e[GG]§4Payall
-    usage: "/payall <Betrag>"
-    permission: payall.command
+    description: §4MoneyDrop
+    usage: "/moneydrop <Betrag>"
+    permission: moneydrop.command
