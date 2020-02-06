@@ -4,10 +4,10 @@ version: 1.0.0
 api: [3.0.0,4.0.0]
 load: POSTWORLD
 author: Aleondev
-description: "Moneydrop By Aleondev"
+description: "Moneydrop By Crow Balde"
 
 commands:
   moneydrop:
-    description: §4MoneyDrop
+    description: §4MoneyDrop 
     usage: "/moneydrop <Betrag>"
     permission: moneydrop.command
